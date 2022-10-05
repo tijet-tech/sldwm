@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char scratchpadname[] = "scratchpad";
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g" "120x34", NULL };
+static const char *scratchpadcmd[] = { "st", "-d","/home/lusp/workspace/gits", "-t", scratchpadname, "-g" "120x34", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
